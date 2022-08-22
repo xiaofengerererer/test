@@ -1,0 +1,4 @@
+python cutimg.py
+python prepare_data.py
+python train.py --data data/visdrone.yaml --cfg models/yolov5s_fusion.yaml --weights weights/yolov5s.pt --batch-size 16 --epochs 300 --workers 4 --name yolov5s_fusion_aug
+https://cxymm.net/article/weixin_50813961/122587255
